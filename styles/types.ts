@@ -1,4 +1,5 @@
 import {StyleSheet, TextStyle} from 'react-native';
+import { bodyTextColor, textPrimaryColor } from './colors';
 
 interface Typescale {
   DisplayLarge: TextStyle;
@@ -23,7 +24,7 @@ const fonts: Typescale = StyleSheet.create({
     fontSize: 57,
     fontWeight: '400',
     lineHeight: 64,
-    color: 'black',
+    color: textPrimaryColor.code,
   },
 
   DisplayMedium: {
@@ -31,7 +32,7 @@ const fonts: Typescale = StyleSheet.create({
     fontSize: 45,
     fontWeight: '400',
     lineHeight: 52,
-    color: 'black',
+    color: textPrimaryColor.code,
   },
 
   DisplaySmall: {
@@ -39,7 +40,7 @@ const fonts: Typescale = StyleSheet.create({
     fontSize: 36,
     fontWeight: '400',
     lineHeight: 44,
-    color: 'black',
+    color: textPrimaryColor.code,
   },
 
   HeadlineLarge: {
@@ -47,7 +48,7 @@ const fonts: Typescale = StyleSheet.create({
     fontSize: 32,
     fontWeight: '400',
     lineHeight: 40,
-    color: 'black',
+    color: textPrimaryColor.code,
   },
 
   HeadlineMedium: {
@@ -55,7 +56,7 @@ const fonts: Typescale = StyleSheet.create({
     fontSize: 28,
     fontWeight: '400',
     lineHeight: 36,
-    color: 'black',
+    color: textPrimaryColor.code,
   },
 
   HeadlineSmall: {
@@ -63,20 +64,19 @@ const fonts: Typescale = StyleSheet.create({
     fontSize: 18,
     fontWeight: '400',
     lineHeight: 32,
-    color: 'black',
+    color: textPrimaryColor.code,
   },
 
   TitleLarge: {
-    fontFamily: 'Lato-Black',
-    fontSize: 22,
+    fontFamily: 'Lato-Bold',
+    fontSize: 24,
     lineHeight: 28,
-    color: 'black',
+    color: textPrimaryColor.code,
   },
 
   TitleMedium: {
     fontFamily: 'Lato-Bold',
     fontSize: 16,
-    fontWeight: '700',
     letterSpacing: 0.15,
     lineHeight: 24,
     color: 'black',
@@ -85,60 +85,55 @@ const fonts: Typescale = StyleSheet.create({
   TitleSmall: {
     fontFamily: 'Lato-Bold',
     fontSize: 14,
-    fontWeight: '500',
     lineHeight: 20,
     color: 'black',
   },
 
   LableLarge: {
     fontFamily: 'Lato-Bold',
-    fontSize: 14,
-    fontWeight: '700',
+    fontSize: 16,
     lineHeight: 20,
     letterSpacing: 0.1,
-    color: 'black',
+    color: textPrimaryColor.code,
   },
 
   LableSmall: {
     fontFamily: 'Lato-Bold',
     fontSize: 12,
-    fontWeight: '700',
     lineHeight: 16,
     letterSpacing: 0.5,
-    color: 'black',
+    color: textPrimaryColor.code,
   },
 
   BodyLarge: {
-    fontFamily: 'Lato-Regular',
+    fontFamily: 'Lato-Medium',
     fontSize: 16,
     fontWeight: '400',
     lineHeight: 24,
     letterSpacing: 0.5,
-    color: 'black',
+    color: bodyTextColor.code,
   },
 
   BodyMedium: {
-    fontFamily: 'Lato-Regular',
+    fontFamily: 'Lato-Semibold',
     fontSize: 14,
     fontWeight: '400',
     lineHeight: 20,
     letterSpacing: 0.5,
-    color: 'black',
+    color: bodyTextColor.code,
   },
 
   BodySmall: {
     fontFamily: 'Lato-Regular',
     fontSize: 12,
-    fontWeight: '400',
     lineHeight: 16,
     letterSpacing: 0.4,
-    color: 'black',
+    color: bodyTextColor.code,
   },
 
   ButtonText: {
     fontFamily: 'Lato-Bold',
     fontSize: 16,
-    fontWeight: '600',
     lineHeight: 24,
     letterSpacing: 0.5,
     color: 'black',
