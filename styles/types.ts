@@ -16,11 +16,12 @@ interface Typescale {
   BodyLarge: TextStyle;
   BodyMedium: TextStyle;
   BodySmall: TextStyle;
+  ButtonText: TextStyle;
 }
 
 const fonts: Typescale = StyleSheet.create({
   DisplayLarge: {
-    fontFamily: 'Lato-Black',
+    fontFamily: 'PlusJakartaSans-Regular',
     fontSize: 57,
     fontWeight: '400',
     lineHeight: 64,
@@ -28,7 +29,7 @@ const fonts: Typescale = StyleSheet.create({
   },
 
   DisplayMedium: {
-    fontFamily: 'Lato-Black',
+    fontFamily: 'PlusJakartaSans-Regular',
     fontSize: 45,
     fontWeight: '400',
     lineHeight: 52,
@@ -36,7 +37,7 @@ const fonts: Typescale = StyleSheet.create({
   },
 
   DisplaySmall: {
-    fontFamily: 'Lato-Black',
+    fontFamily: 'PlusJakartaSans-Regular',
     fontSize: 36,
     fontWeight: '400',
     lineHeight: 44,
@@ -44,38 +45,35 @@ const fonts: Typescale = StyleSheet.create({
   },
 
   HeadlineLarge: {
-    fontFamily: 'Lato-Black',
+    fontFamily: 'PlusJakartaSans-Bold',
     fontSize: 32,
-    fontWeight: '400',
     lineHeight: 40,
     color: textPrimaryColor.code,
   },
 
   HeadlineMedium: {
-    fontFamily: 'Lato-Black',
+    fontFamily: 'PlusJakartaSans-Bold',
     fontSize: 28,
-    fontWeight: '400',
     lineHeight: 36,
     color: textPrimaryColor.code,
   },
 
   HeadlineSmall: {
-    fontFamily: 'Lato-Black',
+    fontFamily: 'PlusJakartaSans-Bold',
     fontSize: 18,
-    fontWeight: '400',
     lineHeight: 32,
     color: textPrimaryColor.code,
   },
 
   TitleLarge: {
-    fontFamily: 'Lato-Bold',
+    fontFamily: 'PlusJakartaSans-Bold',
     fontSize: 24,
     lineHeight: 28,
     color: textPrimaryColor.code,
   },
 
   TitleMedium: {
-    fontFamily: 'Lato-Bold',
+    fontFamily: 'PlusJakartaSans-Bold',
     fontSize: 16,
     letterSpacing: 0.15,
     lineHeight: 24,
@@ -83,14 +81,14 @@ const fonts: Typescale = StyleSheet.create({
   },
 
   TitleSmall: {
-    fontFamily: 'Lato-Bold',
+    fontFamily: 'PlusJakartaSans-Bold',
     fontSize: 14,
     lineHeight: 20,
     color: 'black',
   },
 
   LableLarge: {
-    fontFamily: 'Lato-Bold',
+    fontFamily: 'PlusJakartaSans-Bold',
     fontSize: 16,
     lineHeight: 20,
     letterSpacing: 0.1,
@@ -98,7 +96,7 @@ const fonts: Typescale = StyleSheet.create({
   },
 
   LableSmall: {
-    fontFamily: 'Lato-Bold',
+    fontFamily: 'PlusJakartaSans-Bold',
     fontSize: 12,
     lineHeight: 16,
     letterSpacing: 0.5,
@@ -106,25 +104,23 @@ const fonts: Typescale = StyleSheet.create({
   },
 
   BodyLarge: {
-    fontFamily: 'Lato-Medium',
+    fontFamily: 'PlusJakartaSans-Medium',
     fontSize: 16,
-    fontWeight: '400',
-    lineHeight: 24,
-    letterSpacing: 0.5,
+    lineHeight: 22,
+    letterSpacing: 0.2,
     color: bodyTextColor.code,
   },
 
   BodyMedium: {
-    fontFamily: 'Lato-Semibold',
+    fontFamily: 'PlusJakartaSans-Medium',
     fontSize: 14,
-    fontWeight: '400',
     lineHeight: 20,
-    letterSpacing: 0.5,
+    letterSpacing: 0.2,
     color: bodyTextColor.code,
   },
 
   BodySmall: {
-    fontFamily: 'Lato-Regular',
+    fontFamily: 'PlusJakartaSans-Medium',
     fontSize: 12,
     lineHeight: 16,
     letterSpacing: 0.4,
@@ -132,11 +128,10 @@ const fonts: Typescale = StyleSheet.create({
   },
 
   ButtonText: {
-    fontFamily: 'Lato-Bold',
+    fontFamily: 'PlusJakartaSans-SemiBold',
     fontSize: 16,
     lineHeight: 24,
-    letterSpacing: 0.5,
-    color: 'black',
+    letterSpacing: 0.4,
   },
 });
 
